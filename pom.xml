@@ -4,7 +4,7 @@
   <groupId>com.scmgalaxy.mavensample</groupId>
   <artifactId>yoodle</artifactId>
   <packaging>jar</packaging>
-  <version>5.0.0</version>
+  <version>2.0.0</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
 	
@@ -42,14 +42,14 @@
   
 <distributionManagement>
     <repository>
-        <id>sym</id>
+        <id>devops</id>
         <name>release softx</name>
-        <url>http://heeng-kiranm.headquarters.healthedge.com:8081/repository/maven-nexus-repo/</url>
+        <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/devops-release/</url>
     </repository>
     <snapshotRepository>
-        <id>sym</id>
+        <id>devops</id>
         <name>snapshot softx</name>
-        <url>http://heeng-kiranm.headquarters.healthedge.com:8081/repository/maven-nexus-repo/</url>
+        <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/devops-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
