@@ -43,12 +43,12 @@
 <distributionManagement>
     <repository>
         <id>devops</id>
-        <name>release softx</name>
+        <name>devops-release</name>
         <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/devops-release/</url>
     </repository>
     <snapshotRepository>
         <id>devops</id>
-        <name>snapshot softx</name>
+        <name>devops-snapshot</name>
         <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/devops-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
